@@ -1,1 +1,46 @@
+:root {
+  --bg-blue: #D5E1EF; /* The light blue background */
+  --card-white: #FFFFFF;
+  --text-dark: #1F314F; /* The dark blue for the title */
+  --text-gray: #7D889E; /* The gray for the paragraph */
+}
 
+body {
+  background-color: var(--bg-blue);
+  font-family: 'Outfit', sans-serif; /* Standard font for this challenge */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.qr-card {
+  background-color: var(--card-white);
+  padding: 16px;
+  border-radius: 20px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.qr-image img {
+  width: 100%;
+  border-radius: 10px; /* Gives the QR background rounded corners */
+}
+
+.qr-content {
+  padding: 20px 10px;
+}
+
+.qr-content h1 {
+  color: var(--text-dark);
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+
+.qr-content p {
+  color: var(--text-gray);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  }
