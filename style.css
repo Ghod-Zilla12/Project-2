@@ -1,4 +1,4 @@
-:root {
+:root { 
   --bg-blue: #D5E1EF; /* The light blue background */
   --card-white: #FFFFFF;
   --text-dark: #1F314F; /* The dark blue for the title */
@@ -46,3 +46,13 @@ body {
   font-size: 0.95rem;
   line-height: 1.4;
   }
+
+.container {
+    display: flex;             /* Enables the layout engine */
+    justify-content: center;   /* Centers the card horizontally */
+    align-items: center;       /* Centers the card vertically */
+    min-height: 100vh;         /* Makes the container the full height of the screen */
+    width: 100%;
+    padding: 20px;             /* Adds a little "safety" space for mobile screens */
+    box-sizing: border-box;
+}
