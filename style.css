@@ -14,7 +14,7 @@ body {
   height: 100vh;
   margin: 0;
   font-weight: 400, 700;
-  Font size (paragraph): 15px;
+  font-size(paragraph): 15px;
 }
 
 .qr-card {
