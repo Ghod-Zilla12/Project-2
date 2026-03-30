@@ -9,7 +9,8 @@ body {
   background-color: var(--bg-blue);
   font-family: 'Outfit', sans-serif; /* Standard font for this challenge */
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
   margin: 0;
@@ -48,6 +49,7 @@ body {
   }
 
 .container {
+   flex: 1; 
     display: flex;             /* Enables the layout engine */
     justify-content: center;   /* Centers the card horizontally */
     align-items: center;       /* Centers the card vertically */
@@ -57,9 +59,9 @@ body {
     box-sizing: border-box;
 }
 
-.attribute {
-  display: flex;
-  font-size: 15px;
-  text-align: bottom;
-  font-family: 'outfit';
+.attribution {
+  font-size: 11px;
+    text-align: center;
+    padding: 20px 0; /* Gives it some breathing room from the bottom edge */
+    width: 100%;
     
