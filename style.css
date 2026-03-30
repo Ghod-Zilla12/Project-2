@@ -56,3 +56,10 @@ body {
     padding: 20px;             /* Adds a little "safety" space for mobile screens */
     box-sizing: border-box;
 }
+
+.attribute {
+  display: flex;
+  font-size: 15px;
+  text-align: bottom;
+  font-family: 'outfit';
+    
